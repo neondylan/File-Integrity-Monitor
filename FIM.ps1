@@ -7,7 +7,7 @@ Function Erase-Baseline-If-Already-Exists() {
 
     if ($baselineExists) {
         # Delete it
-        Remove-Item -Path .\baseline.txt
+        Remove-Item -Path C:\Users\dylan\OneDrive\Documents\FIM\baseline.txt
     }
 }
 
